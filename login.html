@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+
+    <!--Css-->
     <link rel="stylesheet" href="style3.css">
     <link rel="stylesheet" href="loading.css">
-    <script src="https://kit.fontawesome.com/0c7fbaa498.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
-    <!-- Script de Cadastro -->
+    <!--Icones-->
+    <script src="https://kit.fontawesome.com/0c7fbaa498.js" crossorigin="anonymous"></script>
+
+    <!--Icone Aba-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!--Script Login-->
     <script src="login.js"></script>
 
+
     <meta charset="UTF-8">
-    <title>Criar Conta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
 </head>
 <body>
 
+    <!--Loading-->
     <div class="preloader" id="preloader">
-        <div class="loader" id="loader"></div>
-    </div>
+  		<div class="loader" id="loader"></div>
+	</div>
 
-        <header>
+    <!--Header-->
+    <header>
         <div class="container-fluid">
             <div class="logo">
                 <img src="img/Adobe Express - file (1).png" alt="DBOSlogo">
@@ -44,38 +58,38 @@
             </div>    
         </div>
     </header>
-    
 
+    <!--Login-->
     <main>
         <div class="login-container">
             <form class="formlogin">
-                <h1 class="titulo-login">Criar Conta</h1>
-
-                <div class="form-group">
-                    <label for="login">Nome de usuário</label>
-                    <input type="text" class="form-control input-login" id="login" placeholder="Insira seu nome de usuário">
-                </div>
-
+                <h1 class="titulo-login">Entrar</h1>
+            
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" class="form-control input-login" id="email" placeholder="Insira seu e-mail">
+                    <input type="Email" class="form-control input-login" id="email" placeholder="Insira seu e-mail">
+                    <p><small>Logins autorizados estão no README do GitHub.</small></p>
                 </div>
-
+            
                 <div class="form-group">
                     <label for="senha">Senha</label>
                     <input type="password" class="form-control input-login" id="senha" placeholder="Insira sua senha">
+                    <small class="form-text text-muted">Senha contém no máximo 5 caracteres.</small>
                 </div>
+            
+                <button type="button" class="btn-login" onclick="login()">Logar</button>
+                <button type="button" class="btn-login" onclick="logout()">Apagar meus dados</button>
+                
+                <p><small> Não tem conta?
+                    <a href="cadastro.html">Crie agora</a>
+                </small></p>
 
-                <button type="button" class="btn-login" onclick="cadastrar()">Cadastrar</button>
-
-                <p style="margin-top: 15px; text-align: center;">
-                    Já tem conta? <a href="login.html">Faça login</a>
-                </p>
             </form>
         </div>
     </main>
 
-   <footer>
+    <!--Footer-->
+    <footer>
         <div class="fundofooter">
             <div class="footer">            
                 <div class="titulo">
@@ -95,6 +109,16 @@
         </div>
     </footer>
 
+    <!--Site Icones Script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <!--Script Preloader(Loading)-->
     <script src="script_preloader.js"></script>
+    
+
+    
 </body>
 </html>
+
+

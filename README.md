@@ -46,7 +46,7 @@ Para acessar o projeto online clique [AQUI](https://pedhensilva.github.io/Loja-G
 
 ● JavaScript - Login para armazenamento e verificação de dados
 
-## <img width="45" height="45" alt="vegeta" src="https://github.com/user-attachments/assets/ff1090a5-4c81-4a2c-bc4a-99f2f8312aee" /> Acessos autorizados para Login </h2>
+## <img width="45" height="45" alt="vegeta" src="https://github.com/user-attachments/assets/ff1090a5-4c81-4a2c-bc4a-99f2f8312aee" /> Acessos já autorizados para Login </h2>
 
 ● Bulma - E-mail: bulma@gmail.com - Senha: 123
 
