@@ -104,7 +104,7 @@ window.removerItem = function(index) {
 window.limparCarrinho = function() {
 
     if (!usuarioLogado) {
-        alert("Você precisa fazer login para adicionar itens ao carrinho!");
+        alert("Você precisa fazer login para finalizar sua compra!");
         window.location.href = "cadastro.html"; 
         return; 
     
@@ -135,4 +135,5 @@ window.limparCarrinho = function() {
     atualizarVisualizacao();
         
     $('#modalCarrinho').modal('hide'); 
+
 }
